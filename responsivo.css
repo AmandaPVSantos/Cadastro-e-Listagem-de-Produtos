@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+    /* Manter regras específicas, se necessário */
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 10px 20px; /* Margens reduzidas em telas menores */
+    }
+
+    .footer {
+        font-size: 14px; /* Tamanho de fonte menor em telas menores */
+    }
+}
+
+@media (max-width: 480px){
+    th, td {
+        padding: 8px; /* Ajusta o padding da tabela em telas pequenas */
+    }
+
+    .footer {
+        padding: 8px 0; /* Menos padding no footer em telas pequenas */
+    }
+}
